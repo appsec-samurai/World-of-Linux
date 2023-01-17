@@ -18,3 +18,43 @@
 | 10  | [**Search Files**](#search-files)                                       |
 | 11  | [**SSH**](#ssh)                                                         |
 | 12  | [**Vi/Vim-commands**](#vi/vim-commands)                                 |
+
+### System information
+
+1.  **Print all information**: `uname` is mainly used to print system information.
+
+```bash
+$ uname -a
+```
+
+2.  **Print Architecture**:
+
+```bash
+$ uname -m
+```
+
+3.  **Print network hostname**:
+
+```bash
+$ uname -n
+```
+
+4.  **Print Operating System**:
+
+```bash
+$ uname -o
+```
+
+5.  **Print kernel release**:
+
+```bash
+$ uname -r
+```
+
+6.  **Print kernel name**:
+
+```bash
+$ uname -s
+```
+
+**[⬆ Back to Top](#table-of-contents)**
