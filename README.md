@@ -61,67 +61,67 @@ $ uname -s
 
 ### Hardware information
 
-1.  ** Print information about your `Linux system hardware` run this command.
+1.  **Print information about your `Linux system hardware` run this command.**
 
 ```bash
 $ sudo lshw
 ```
 
-2.  ** Print `summary of your hardware information` by using the `-short` option.
+2.  **Print `summary of your hardware information` by using the `-short` option.**
 
 ```bash
 $ sudo lshw -short
 ```
 
-3.  ** Generate output as an `html file`, you can use the option `-html`.
+3.  **Generate output as an `html file`, you can use the option `-html`.**
 
 ```bash
 $ sudo lshw -html > lshw.html
 ```
 
-4.  ** View `Linux CPU` Information.
+4.  **View `Linux CPU` Information.**
 
 ```bash
 $ lscpu
 ```
 
-5.  ** Collect `Linux Block Device` Information.
+5.  **Collect `Linux Block Device` Information.**
 
 ```bash
 $ lsblk
 ```
 
-6.  ** View `all block devices` on your system then include the `-a` option.
+6.  **View `all block devices` on your system then include the `-a` option.**
 
 ```bash
 $ lsblk -a
 ```
 
-7.  ** Print `USB Controllers` Information.
+7.  **Print `USB Controllers` Information.**
 
 ```bash
 $ lsusb
 ```
 
-8.  ** Print `PCI Devices` Information.
+8.  **Print `PCI Devices` Information.**
 
 ```bash
 $ lspci
 ```
 
-9.  ** Produce output in a `tree format`.
+9.  **Produce output in a `tree format`.**
 
 ```bash
 $ lspci -t
 ```
 
-10.  ** Produce detailed information about each `connected device`.
+10.  **Produce detailed information about each `connected device`.**
 
 ```bash
 $ lspci -v
 ```
 
-11.  ** Print `SCSI Devices` Information.
+11.  **Print `SCSI Devices` Information.**
 
 ```bash
 $ sudo apt-get install lsscsi        [on Debian derivatives]
@@ -132,19 +132,19 @@ After installation, run the `lsscsi` command:
 $ lsscsi
 ```
 
-12.  ** Show device sizes.
+12.  **Show device sizes.**
 
 ```bash
 $ lsscsi -s
 ```
 
-13.  ** Print Information about `SATA Devices`.
+13.  **Print Information about `SATA Devices`.**
 
 ```bash
 $ sudo hdparm /dev/sda1
 ```
 
-14.  ** Print information about device geometry in terms of cylinders, heads, sectors, size, and the starting offset of the device, use the -g option.
+14.  **Print information about device geometry in terms of cylinders, heads, sectors, size, and the starting offset of the device, use the -g option.**
 
 ```bash
 $ sudo hdparm -g /dev/sda1
@@ -156,7 +156,7 @@ $ sudo hdparm -g /dev/sda1
 $ sudo fdisk -l
 ```
 
-16.  ** Check `Linux Hardware Components` Information.
+16.  **Check `Linux Hardware Components` Information.**
 
 ```bash
 You can also use the dmidecode utility to extract hardware information by reading data from the DMI tables.
