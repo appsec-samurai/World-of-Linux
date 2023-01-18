@@ -6,8 +6,8 @@
 
 | No. | Topic                                                                   |
 | --- | ----------------------------------------------------------------------- |
-| 1   | [**System information**](#system-information)				|
-| 2   | [**Hardware information**](#hardware-information)			|
+| 1   | [**System information**](#system-information)				            |
+| 2   | [**Hardware information**](#hardware-information)			            |
 | 3   |	[**User information**](#user-information)                               |
 | 4   | [**File and directory commands**](#file-and-directory-commands)         |
 | 5   | [**File permissions**](#file-permissions)                               |
@@ -150,7 +150,7 @@ $ sudo hdparm /dev/sda1
 $ sudo hdparm -g /dev/sda1
 ```
 
-15.  ** Check `Linux File System` Information.
+15.  **Check `Linux File System` Information.**
 
 ```bash
 $ sudo fdisk -l
@@ -175,10 +175,10 @@ $ sudo dmidecode -t processor
 
 1. **who** It is used to get information about currently logged in user on to system. If you don't provide any option or arguments, the command displays the following information for each logged-in user.
 
-    1. Login name of the user
-    2. User terminal
-    3. Date & Time of login
-    4. Remote host name of the user
+1. Login name of the user
+2. User terminal
+3. Date & Time of login
+4. Remote host name of the user
 
 ```bash
 $ who
