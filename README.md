@@ -16,7 +16,7 @@
 | 8   | [**Disk usage**](#disk-usage)                                           |
 | 9   | [**Search Files**](#search-files)                                       |
 | 10  | [**SSH**](#ssh)                                                         |
-| 11  | [**Vi/Vim-commands**](#vi/vim-commands)                                 |
+| 11  | [**Vi/Vim-commands**](#Vi/Vim-commands)                                 |
 
 ### System information
 
