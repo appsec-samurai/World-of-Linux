@@ -6,8 +6,8 @@
 
 | No. | Topic                                                                   |
 | --- | ----------------------------------------------------------------------- |
-| 1   | [**System information**](#system-information)				            |
-| 2   | [**Hardware information**](#hardware-information)			            |
+| 1   | [**System information**](#system-information)				                    |
+| 2   | [**Hardware information**](#hardware-information)			                  |
 | 3   |	[**User information**](#user-information)                               |
 | 4   | [**File and directory commands**](#file-and-directory-commands)         |
 | 5   | [**File permissions**](#file-permissions)                               |
@@ -16,7 +16,7 @@
 | 8   | [**Disk usage**](#disk-usage)                                           |
 | 9   | [**Search Files**](#search-files)                                       |
 | 10  | [**SSH**](#ssh)                                                         |
-| 11  | [**Vi/Vim-commands**](#Vi/Vim-commands)                                 |
+| 11  | [**Vi/Vim-commands**](#vivim-commands)                                  |
 
 ### System information
 
